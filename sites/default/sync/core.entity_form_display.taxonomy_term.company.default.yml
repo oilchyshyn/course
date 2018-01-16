@@ -1,0 +1,48 @@
+uuid: bd49d719-fc02-448f-baa0-5f0b186f60c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.company.field_company_logo
+    - image.style.thumbnail
+    - taxonomy.vocabulary.company
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.company.default
+targetEntityType: taxonomy_term
+bundle: company
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_company_logo:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

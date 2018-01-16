@@ -1,0 +1,21 @@
+uuid: b82d4c45-22bb-4140-815d-3d57325b92fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_range
+    - node.type.session
+  module:
+    - datetime_range
+id: node.session.field_date_range
+field_name: field_date_range
+entity_type: node
+bundle: session
+label: 'Date range'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

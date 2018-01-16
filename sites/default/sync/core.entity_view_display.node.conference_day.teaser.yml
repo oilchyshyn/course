@@ -1,0 +1,20 @@
+uuid: b57523b3-cadd-4395-828b-d8e8171a09f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.conference_day.field_date
+    - node.type.conference_day
+  module:
+    - user
+id: node.conference_day.teaser
+targetEntityType: node
+bundle: conference_day
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_date: true

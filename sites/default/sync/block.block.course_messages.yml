@@ -1,0 +1,22 @@
+uuid: f8f7afb3-a653-4b70-a2b3-38f63aa03689
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - course
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: course_messages
+theme: course
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

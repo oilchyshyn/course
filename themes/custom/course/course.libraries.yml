@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/custom.css: {}
+
+bootstrap-scripts:
+  js:
+    /libraries/bootstrap-sass/javascripts/bootstrap/affix.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/alert.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/button.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/carousel.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/collapse.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/modal.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/popover.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/scrollspy.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/tab.js: {}
+    /libraries/bootstrap-sass/javascripts/bootstrap/transition.js: {}

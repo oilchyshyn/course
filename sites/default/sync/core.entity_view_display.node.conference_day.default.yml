@@ -1,0 +1,30 @@
+uuid: 5db7b8cf-d5d3-4d80-88a6-0046fb1513e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.conference_day.field_date
+    - node.type.conference_day
+  module:
+    - datetime
+    - user
+id: node.conference_day.default
+targetEntityType: node
+bundle: conference_day
+mode: default
+content:
+  field_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

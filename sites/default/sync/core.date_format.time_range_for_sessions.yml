@@ -1,0 +1,8 @@
+uuid: bc6c44ee-8d06-4dc3-9e81-e018168484a7
+langcode: en
+status: true
+dependencies: {  }
+id: time_range_for_sessions
+label: 'Time range for sessions'
+locked: false
+pattern: 'H:i'

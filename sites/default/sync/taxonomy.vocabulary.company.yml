@@ -1,0 +1,9 @@
+uuid: 33d37990-97f7-4543-8a8c-d084f851bd4d
+langcode: en
+status: true
+dependencies: {  }
+name: Company
+vid: company
+description: 'There are companies where speakers work.'
+hierarchy: 0
+weight: 0

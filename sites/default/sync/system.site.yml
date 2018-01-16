@@ -1,0 +1,14 @@
+uuid: 77f0ed17-93c8-4365-9a0f-27eceabf3c8f
+name: Course
+mail: v.diakiv@internetdevels.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

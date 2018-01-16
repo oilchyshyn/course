@@ -1,0 +1,59 @@
+uuid: 816c48ad-5f95-45a3-a7a1-2101823b0e3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.session.body
+    - field.field.node.session.field_date_range
+    - field.field.node.session.field_ref_day
+    - field.field.node.session.field_speakers
+    - node.type.session
+  module:
+    - datetime_range
+    - text
+    - user
+id: node.session.default
+targetEntityType: node
+bundle: session
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_range:
+    weight: 2
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: time_range_for_sessions
+      separator: '-'
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_ref_day:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_speakers:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

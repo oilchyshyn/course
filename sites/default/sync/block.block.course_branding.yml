@@ -1,0 +1,25 @@
+uuid: 1e6e1567-5dd6-438b-85f6-688db6cb294b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - course
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: course_branding
+theme: course
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

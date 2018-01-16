@@ -1,0 +1,22 @@
+uuid: eca5874d-a82d-4f2b-87b7-69e8395c13a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - course
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: course_content
+theme: course
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

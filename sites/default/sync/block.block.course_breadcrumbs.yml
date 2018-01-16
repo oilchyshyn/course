@@ -1,0 +1,22 @@
+uuid: ebd5c8ba-c7e9-4fee-b9ab-b6be61ff58c4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - course
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: course_breadcrumbs
+theme: course
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

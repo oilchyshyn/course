@@ -1,0 +1,34 @@
+uuid: 538e055b-ba74-4dd9-99e3-e4ae6ffaf628
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: logo_s_style
+label: 'Logo''s style'
+effects:
+  6db0a384-f4b4-452a-86e4-ed03680f8ddf:
+    uuid: 6db0a384-f4b4-452a-86e4-ed03680f8ddf
+    id: image_effects_set_canvas
+    weight: -9
+    data:
+      canvas_size: exact
+      exact:
+        width: '120'
+        height: '120'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''
+  c52efa9f-20a6-4c4d-a52e-fd40597ad9dd:
+    uuid: c52efa9f-20a6-4c4d-a52e-fd40597ad9dd
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 100
+      height: 100

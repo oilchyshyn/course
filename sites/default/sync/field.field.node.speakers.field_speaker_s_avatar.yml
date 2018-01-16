@@ -1,0 +1,38 @@
+uuid: 588c9119-daf6-40b1-abf5-7b80549eedfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_s_avatar
+    - node.type.speakers
+  module:
+    - image
+id: node.speakers.field_speaker_s_avatar
+field_name: field_speaker_s_avatar
+entity_type: node
+bundle: speakers
+label: 'Speaker''s avatar'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

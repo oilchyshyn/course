@@ -1,0 +1,14 @@
+uuid: 2797bc8c-65b8-4d3c-a3e8-76828a67c66a
+langcode: en
+status: true
+dependencies: {  }
+name: my_image_style
+label: 'Avatar''s style'
+effects:
+  cd7c9cc3-d0db-4f27-a186-6e87d5c5f2d4:
+    uuid: cd7c9cc3-d0db-4f27-a186-6e87d5c5f2d4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 120
